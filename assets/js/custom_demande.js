@@ -11,7 +11,7 @@ function showAlert() {
 
 
 document.getElementById("confirm_btn").addEventListener("click", function () {
-    window.location.href = "congratulation.html"
+    window.location.href = "Nickelo"
 });
 
 
