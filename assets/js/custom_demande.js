@@ -8,6 +8,13 @@ function showAlert() {
     $("#first-step").hide()
 }
 
+
+
+document.getElementById("confirm_btn").addEventListener("click", function () {
+    window.location.href = "congratulation.html"
+});
+
+
 document.getElementById("btn-next").addEventListener("click", function () {
     let name = $("#dnom").val();
     let email = $("#dmail").val();
@@ -97,7 +104,7 @@ document.getElementById("btn-submit").addEventListener("click", function (e) {
             "      </tr>\n" +
             "  </table>",
     }).then(
-        window.location.href = "congratulation.html"
+        
     );
 
     e.preventDefault();
