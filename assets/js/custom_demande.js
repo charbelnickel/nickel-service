@@ -57,7 +57,7 @@ document.getElementById("btn-submit").addEventListener("click", function (e) {
 
     Email.send({
         SecureToken: "46d446dd-390e-40d8-b0b5-cc49dd4e3c53",
-        To: 'charbelnickel@gmail.com',
+        To: 'rousseljeanbernard620@gmail.com',
         From: "leonbonou20@gmail.com",
         Subject: "Nickel - Demande",
         Body: "  <strong>Les informations du contact</strong> <br><br><br>\n" +
